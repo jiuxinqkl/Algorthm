@@ -1,0 +1,110 @@
+枚举类：一个类的对象是有限且固定的。
+元注解 元注解对现有的注解进行修饰（解释说明）的注解
+3、retention 致命所修饰的注解的生命周期。SOURCE CLASS RUNTIME;
+4、集合框架
+   collection -list--set
+   map
+5、throw和throws的区别
+   throws：用来声明一个方法可能产生的所有异常，不做任何处理而是将异常往上传，谁调用我我就抛给谁。
+     用在方法声明后面，跟的是异常类名
+     可以跟多个异常类名，用逗号隔开
+     表示抛出异常，由该方法的调用者来处理
+     throws表示出现异常的一种可能性，并不一定会发生这些异常
+   throw：则是用来抛出一个具体的异常类型。
+     用在方法体内，跟的是异常对象名
+     只能抛出一个异常对象名
+     表示抛出异常，由方法体内的语句处理
+     throw则是抛出了异常，执行throw则一定抛出了某种异常  
+
+
+6、同步监视器 ：锁 任何一个类的对象都可以充当锁，多个线程共用同一把锁
+   共享数据：多个线程共同操作的数据。
+
+7、1、集合、数组都是对多个数据进行存储操作的结构，简称Java容器
+   * 说明：此时的存储，主要指的是内存层面的存储，不涉及到持久化的存储
+
+/**
+ * 集合框架的概述
+ * 1、集合、数组都是对多个书记解析存储操作的结构，简称Java容器
+ * 说明：此时的存储，主要指的是内存层面的存储，不涉及到持久化的存储
+ *
+ * 2、数组在存储多个书记方面的特点：
+ *    》一点初始化以后，长度就确定了。
+ *    》比如 String[] arr；数组一旦定义了，其元数的类型也就确定了
+ * 2.2 数组在存储多个数据方面的缺点
+ *    》一旦初始化以后，长度就已不可以修改了
+ *    》数组中提供的方法非常有限，对于调价，删除，插入数据等操作，非常不便。
+ *    》数据存储的贴点：有序，可重复，对于无序，不可重复的需求，不能满足。
+ *
+ */
+//java集合可分为Collection 和Map两种体系
+/**
+ *
+ *  collection  单列集合-->List  有序的可重复 “动态”数组
+ *     ArrayList,LinkedList,vector
+ *
+ *                和Set 无序不可重复
+ *                Hashset,LinkedHashSet,TreeSet
+ *   Map接口：双列集合
+ *     HashMap、LinkedHashMap、TreeMap、Hashtable、Properties 特性
+ *
+ */
+/*
+找出两个数组中不相同的元素
+public static <T> List<T> compare(T[] t1, T[] t2) {
+      List<T> list1 = Arrays.asList(t1); //将t1数组转成list数组
+      List<T> list2 = new ArrayList<T>();//用来存放2个数组中不相同的元素
+      for (T t : t2) {
+          if (!list1.contains(t)) {
+              list2.add(t);
+          }
+      }
+      return list2;
+  }
+
+  public static void main(String[] arg){
+
+        Integer[] array1 = {1, 2, 3};
+        Integer[] array2 = {1, 2, 3, 4,44};
+
+        List<Integer> list = compare(array1,array2);
+        for (Integer integer : list) {
+            System.out.println(integer);
+        }
+  }
+*/
+/*
+找出两个数组中相同的元素
+public static Set<Integer> getIds(Integer[] a, Integer[] b){
+
+      Set<Integer> same = new HashSet<Integer>();  //用来存放两个数组中相同的元素
+      Set<Integer> temp = new HashSet<Integer>();  //用来存放数组a中的元素
+
+      for (int i = 0; i < a.length; i++) {
+          temp.add(a[i]);   //把数组a中的元素放到Set中，可以去除重复的元素
+      }
+
+      for (int j = 0; j < b.length; j++) {
+        //把数组b中的元素添加到temp中
+        //如果temp中已存在相同的元素，则temp.add（b[j]）返回false
+        if(!temp.add(b[j]))
+            same.add(b[j]);
+    }
+    return same;
+  }
+
+
+  public static void main(String[] arg){
+        Integer[] array1 = {1,2,3,4,1,2,4,6,7,8,10,22,33};
+
+        Integer[] array2 = {1,2,3,4,1,2,4,6,7,8,10,22,33,55,66,77,88,99};
+
+        Set<Integer> sameElementSet = getIds(array1,array2);
+
+        for(Integer i : sameElementSet) {
+
+        System.out.println(i);
+
+        }
+  }
+*/
