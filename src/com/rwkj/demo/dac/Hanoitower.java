@@ -3,7 +3,7 @@ package com.rwkj.demo.dac;
 public class Hanoitower {
     public static void main(String[] args) {
         hanoiTower(2,'A','B','C');
-
+        //hanoiTower(2,'A','B','C');
     }
 
     //韩罗塔移动的方法
