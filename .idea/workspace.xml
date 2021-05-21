@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76340ba4-31cb-4566-a7c0-3fac9de63110" name="Default" comment="型项目">
-      <change afterPath="$PROJECT_DIR$/src/com/jiuxin/mishi/bishiti/CountStringNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiuxin/mishi/bishiti/Foctori.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiuxin/mishi/bishiti/NumText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiuxin/mishi/bishiti/RevirceNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiuxin/mishi/bishiti/SingleTon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiuxin/mishi/num50/Lianxi6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rwkj/demo/prime/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rwkj/demo/prime/Text2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rwkj/demo/prime/Text3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rwkj/demo/text/BubbleSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rwkj/demo/text/Cstext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rwkj/demo/text/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rwkj/demo/text/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rwkj/demo/text/ErFengCHaoZhao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rwkj/demo/text/MyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rwkj/demo/text/Sorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rwkj/demo/text/Test12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="76340ba4-31cb-4566-a7c0-3fac9de63110" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorthm/com/rwkj/demo/FileIoStream/ScannerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorthm/com/rwkj/demo/FileIoStream/ScannerDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorthm/com/rwkj/demo/timetask/MainTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorthm/com/rwkj/demo/timetask/MainTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rwkj/demo/timetask/MainTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rwkj/demo/timetask/MainTime.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,7 +61,7 @@
       <file leaf-file-name="Lianxi6.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jiuxin/mishi/num50/Lianxi6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
+            <state relative-caret-position="76">
               <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
@@ -194,9 +173,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="772" />
-    <option name="y" value="398" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="126" />
+    <option name="y" value="30" />
     <option name="width" value="1470" />
     <option name="height" value="977" />
   </component>
@@ -213,47 +192,6 @@
             <path>
               <item name="Algorthm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorthm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorthm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorthm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorthm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorthm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorthm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorthm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mishi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorthm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorthm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorthm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorthm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="prim" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorthm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorthm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorthm" type="b2602c69:ProjectViewProjectNode" />
@@ -441,7 +379,7 @@
       <workItem from="1620962741554" duration="3832000" />
       <workItem from="1621213868645" duration="4079000" />
       <workItem from="1621390629863" duration="10825000" />
-      <workItem from="1621558511773" duration="3326000" />
+      <workItem from="1621558511773" duration="4230000" />
     </task>
     <task id="LOCAL-00001" summary="型项目">
       <created>1594369986513</created>
@@ -457,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594370749115</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="型项目">
+      <created>1621563378172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621563378172</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -493,7 +438,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202453000" />
+    <option name="totallyTimeSpent" value="203357000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -505,8 +450,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="170" y="38" width="1176" height="781" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.329429" />
@@ -514,7 +458,7 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.509839" side_tool="true" visible="true" weight="0.39776358" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.51005363" side_tool="true" visible="true" weight="0.63103956" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -522,14 +466,14 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22629696" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16957104" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.490161" visible="true" weight="0.39776358" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4899464" visible="true" weight="0.63103956" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -795,6 +739,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -802,6 +749,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -928,7 +878,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jiuxin/mishi/num50/Lianxi6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
+        <state relative-caret-position="76">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
